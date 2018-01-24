@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title>WEB DEV N1</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="logo_top">
+			<img src="img/logo_top.png">
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<section id="register">
+					<div class="top">Register Form</div>
+					<div class="panel">
+						<form>
+							<!-- Username input !-->
+							<label class="panel__label">
+									<i class="fa fa-user"></i>
+									<input type="text" name="firstname" placeholder="Username" class="input input-padding">
+								</label>
+
+							<!-- Password input !-->
+							<label class="panel__label">
+									<span class="yolo"><i class="fa fa-lock"></i></span>
+									<input type="password" placeholder="Password" class="input  input-padding">
+								</label>
+
+							<!-- Password Confirm input !-->
+							<label class="panel__label">
+									<i class="fa fa-lock"></i>
+									<input type="password" placeholder="Confirm Password" class="input input-padding">
+								</label>
+							<!-- Email input !-->
+							<label class="panel__label">
+									<i class="fa fa-envelope"></i>
+									<input type="text" placeholder="Email" class="input input-padding">
+								</label>
+							<!-- Your location input !-->
+							<label class="panel__label">
+									<i class="fa fa-map-marker"></i>
+									<select class="input-padding">
+										<option value="" disabled selected hidden>Your location</option>
+										<option>Warszawa</option>
+										<option>Wyszków</option>
+										<option>Grójec</option>
+									</select>
+								</label>
+
+							<section>
+								<!-- Checbox Five -->
+								<div class="checkboxFive">
+									<input type="checkbox" value="1" id="checkboxFiveInput" name="" />
+									<label for="checkboxFiveInput">
+										</label>
+									<span class="panel__checkbox__rules">I have read and accept the terms of use.</span>
+								</div>
+							</section>
+							<button>Sign up !</button>
+						</form>
+					</div>
+				</section>
+				<!-- !!!!!!!!!!!!!!! SEND MAIL !!!!!!!!!!!!!!!!!! !-->
+				<section id="send__mail">
+					<div class="top">Send Email</div>
+					<div class="panel">
+						<form>
+							<!-- Username input !-->
+							<label class="panel__label">
+									<i class="fa fa-user"></i>
+									<input type="text" name="firstname" placeholder="Username" class="input input-padding">
+								</label>
+
+							<!-- Email input !-->
+							<label class="panel__label">
+									<i class="fa fa-envelope"></i>
+									<input type="text" placeholder="Email" class="input input-padding">
+								</label>
+							<textarea name="message" rows="8" cols="auto" class="mail__textarea" placeholder="Type your message here...">
+								</textarea>
+
+							<section>
+								<!-- Checbox Five -->
+								<div class="checkboxFive">
+									<input type="checkbox" value="1" id="checkboxFiveInput2" name="" />
+									<label for="checkboxFiveInput2">
+										</label>
+									<span class="panel__checkbox__rules">I have read and accept the terms of use.</span>
+								</div>
+							</section>
+							<button>Send Email</button>
+						</form>
+					</div>
+
+			</div>
+			</section>
+			<!-- - - - - - - - - - -  -END - - - - - - - - -  - - - !-->
+			<div class="col-1">&nbsp;</div>
+			<div class="col-5">
+				<!-- - - - - - - - - - -  -SIGN IN FORM- - - - - - - - - -  - - - !-->
+				<section id="sign_in_form">
+					<div class="top">Sign in Form</div>
+					<div class="panel">
+						<form>
+							<!-- Username input !-->
+							<label class="panel__label">
+									<i class="fa fa-user"></i>
+									<input type="text" name="firstname" placeholder="Username" class="input input-padding">
+								</label>
+
+							<!-- Password input !-->
+							<label class="panel__label">
+									<i class="fa fa-lock"></i>
+									<input type="password" placeholder="Password" class="input  input-padding">
+								</label>
+
+
+							<div class="row">
+								<!-- Checbox Five -->
+								<div class="col-6" id="checkbox_remember">
+									<div class="checkboxFive">
+										<input type="checkbox" value="1" id="checkboxFiveInput3" name="" />
+										<label for="checkboxFiveInput">
+	      </label>
+										<span class="panel__checkbox__rules">Remember me</span>
+									</div>
+								</div>
+
+								<div class="col-6 btn">
+									<button class="small" id="sign_in">Sign in</button>
+								</div>
+						</form>
+						</div>
+					</div>
+				</section>
+				<!-- - - - - - - - - - -  -END- - - - - - - - - -  - - - !-->
+				<!-- - - - - - - - - - -  -RECOVER FORM- - - - - - - - - -  - - - !-->
+				<section id="recover_form">
+					<div class="top">Recover Form</div>
+					<div class="panel">
+						<form>
+							<!-- Username input !-->
+							<label class="panel__label">
+									<i class="fa fa-user"></i>
+									<input type="text" name="firstname" placeholder="Enter your Email" class="input input-padding">
+								</label>
+
+							<!-- Password input !-->
+							<label class="panel__label">
+									<span class="yolo"><i class="fa fa-phone"></i></span>
+									<input type="password" placeholder="Enter your Phone number" class="input  input-padding">
+								</label>
+
+
+							<div class="row">
+								<!-- Checbox Five -->
+								<div class="col-6">
+									<button class="small">Send</button>
+								</div>
+
+								<div class="col-6 btn">
+									<button class="small" id="done">Done</button>
+								</div>
+						</form>
+						</div>
+					</div>
+				</section>
+				<!-- - - - - - - - - - -  -END- - - - - - - - - -  - - - !-->
+
+				<!-- - - - - - - - - - -  -RECOVER FORM- - - - - - - - - -  - - - !-->
+				<section id="subscribe_form">
+					<div class="top">Subscribe Form</div>
+					<div class="panel">
+						<form>
+							<!-- Email input !-->
+							<label class="panel__label">
+									<i class="fa fa-envelope"></i>
+									<input type="text" placeholder="Enter your Email" class="input input-padding">
+								</label>
+
+
+							<div class="row">
+								<!-- Checbox Five -->
+								<div class="col-6">
+									<button class="small">Subscribe</button>
+								</div>
+
+								<div class="col-6 btn">
+									<button class="small" id="no_thanks">No, thanks</button>
+								</div>
+						</form>
+						</div>
+					</div>
+				</section>
+				<!-- - - - - - - - - - -  -END- - - - - - - - - -  - - - !-->
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
