@@ -1,366 +1,375 @@
 html {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  background-image: url("img/background.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% auto;
-  background-attachment: fixed;
-  margin: 0;
-  font-family: 'Titillium Web', sans-serif;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 .col-1 {
-  width: 8.33%;
+    width: 8.33%;
 }
+
 .col-2 {
-  width: 16.66%;
+    width: 16.66%;
 }
+
 .col-3 {
-  width: 25%;
+    width: 25%;
 }
+
 .col-4 {
-  width: 33.33%;
+    width: 33.33%;
 }
+
 .col-5 {
-  width: 41.66%;
+    width: 41.66%;
 }
+
 .col-6 {
-  width: 50%;
+    width: 50%;
 }
+
 .col-7 {
-  width: 58.33%;
+    width: 58.33%;
 }
+
 .col-8 {
-  width: 66.66%;
+    width: 66.66%;
 }
+
 .col-9 {
-  width: 75%;
+    width: 75%;
 }
+
 .col-10 {
-  width: 83.33%;
+    width: 83.33%;
 }
+
 .col-11 {
-  width: 91.66%;
+    width: 91.66%;
 }
+
 .col-12 {
-  width: 100%;
+    width: 100%;
 }
+
 [class*="col-"] {
-  float: left;
-  padding: 0px;
+    float: left;
+    padding: 0px;
 }
+
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .wrapper {
-  padding: 2em;
-  width: 950px;
-  margin: auto;
+    padding: 2em;
+    width: 950px;
+    margin: auto;
 }
+
 .logo_top {
-  width: 100%;
-  height:  111px;
-  margin-bottom: 40px;
-  margin-top: 25px;
-  text-align: center;
-  opacity: 0.3;
-
-
+    width: 100%;
+    height: 111px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    text-align: center;
+    opacity: 0.3;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 .top {
-  text-align: center;
-  font-size: 33px;
-  font-weight: 600;
-  color: #fff;
-  text-shadow: 2px 2px #000;
-  margin-bottom: 35px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 35px;
 }
+
 .panel {
-  padding: 20px;
-  background-color: #f4f4f4;
-  border: none;
-  box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.2);
-  margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: none;
+    box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
 }
 
 /* INPUT PROPERTIES */
+
 .input {
-  width: 100%;
-  padding: 0.5em;
-  background-color: #f5f5f5;
-  border: 1px solid #c6c6c6;
-  border-radius: 4px;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;
-  font-size: 1em;
-  color: #afafaf;
-  margin-bottom: 20px;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #f5f5f5;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #afafaf;
+    margin-bottom: 20px;
 }
 
 ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: #afafaf;
+    /* Chrome/Opera/Safari */
+    color: #afafaf;
 }
 
 /* LABEL (INPUT) */
 
 .panel__label {
-  position: relative;
+    position: relative;
 }
 
 .panel__label i {
-  color: #dedede;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  width: 35px;
-  text-align: center;
+    color: #dedede;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 35px;
+    text-align: center;
 }
 
 .input-padding {
-  padding-left: 73px;
+    padding-left: 73px;
 }
+
 select {
-  width: 100%;
-  padding: 0.5em;
-  background-color: #f5f5f5;
-  border: 1px solid #c6c6c6;
-  border-radius: 4px;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;
-  font-size: 1em;
-  color: #afafaf;
-  margin-bottom: 20px;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #f5f5f5;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #afafaf;
+    margin-bottom: 20px;
 }
 
 /*  !!!!!!!!!!!! CHECKBOX  !!!!!!!!!!!!!!!*/
 
-.checkboxFive {
+.checkbox {
+  display: block;
   position: relative;
-  width: 100%;
-}
-.checkboxFive label {
+  padding-left: 35px;
+  margin-bottom: 12px;
   cursor: pointer;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  top: 0;
-  left: 0;
-  background: #f4f4f4;
-  border: 1px solid #c6c6c6;
-  border-radius: 5px;
-}
-.checkboxFive label:after {
-  opacity: 0;
-  content: '';
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  width: 60%;
-  height: 60%;
-  background: #a3d840; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#a3d840, #7ec31f); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* Standard syntax (must be last) */
-  border-radius: 2px;
-}
-.checkboxFive label:hover::after {
-  opacity: 0.5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.panel__checkbox__rules {
-  margin-left: 15px;
-  color: #afafaf;
-}
-.checkboxFive input[type=checkbox]:checked + label:after {
-  opacity: 1;
-}
-.checkboxFive2 {
-  position: relative;
-  width: 100%;
-}
-.checkboxFive2 label {
-  cursor: pointer;
+/* Hide the browser's default checkbox */
+.checkbox input {
   position: absolute;
-  width: 25px;
-  height: 25px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
   top: 0;
   left: 0;
-  background: #f4f4f4;
+  height: 25px;
+  width: 25px;
+  background-color: #e3e3e3;
   border: 1px solid #c6c6c6;
   border-radius: 5px;
 }
-.checkboxFive2 label:after {
-  opacity: 0;
-  content: '';
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+  background-color: #f1f1f1;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #f4f4f4;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
   position: absolute;
-  top: 20%;
-  left: 20%;
-  width: 60%;
-  height: 60%;
-  background: #a3d840; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#a3d840, #7ec31f); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* Standard syntax (must be last) */
-  border-radius: 2px;
+  display: none;
 }
-.checkboxFive2 label:hover::after {
-  opacity: 0.5;
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
 }
-.checkboxFive2 input[type=checkbox]:checked + label:after {
-  opacity: 1;
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 5px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background: rgb(175,219,84);
+  background: linear-gradient(180deg, rgba(175,219,84,1) 0%, rgba(120,189,15,1) 75%); 
+  
+ 
 }
-#checkbox_remember {
-  margin-top: 11px;
-}
+
+
+
 /*  !!! !!!!!!!!!!!!!!!!CHECKBOX  END  !!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 button {
-  background: #a3d840; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#a3d840, #7ec31f); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(
-    #a3d840,
-    #7ec31f
-  ); /* Standard syntax (must be last) */
-  border: 1px solid #3b9a00;
-  color: white;
-  width: 100%;
-  padding: 10px 0;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 1.5em;
-  font-weight: 400;
-  font-family: 'Titillium Web', sans-serif;
-  text-shadow: 1px 1px 1px #2e6c02;
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
-  opacity: 0.8;
+    background: #a3d840;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #a3d840, #7ec31f);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a3d840, #7ec31f);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #a3d840, #7ec31f);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #a3d840, #7ec31f);
+    /* Standard syntax (must be last) */
+    border: 1px solid #3b9a00;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 1px 1px 1px #2e6c02;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+    opacity: 0.8;
 }
+
 button:hover {
-  background: none;
-  background-color: #7ec31f;
-  opacity: 1;
+    background: none;
+    background-color: #7ec31f;
+    opacity: 1;
 }
+
 button.small {
-  border-radius: 3px;
-  font-size: 1.2em;
-  padding: 5px;
-  margin-top: 0px;
-  width: 90%;
+    border-radius: 3px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 0px;
+    width: 90%;
 }
+
 button#sign_in {
-  margin-left: 10%;
-  font-size: 1.4em;
+    margin-left: 10%;
+    font-size: 1.4em;
 }
+
 button#done {
-  margin-left: 10%;
+    margin-left: 10%;
 }
+
 button#no_thanks {
-  margin-left: 10%;
-  background: #f4495a; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(
-    #f65e70,
-    #f03848
-  ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#f65e70, #f03848); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(
-    #f65e70,
-    #f03848
-  ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(
-    #f65e70,
-    #f03848
-  ); /* Standard syntax (must be last) */
-  border: 1px solid #a72c36;
+    margin-left: 10%;
+    background: #f4495a;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #f65e70, #f03848);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f65e70, #f03848);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #f65e70, #f03848);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #f65e70, #f03848);
+    /* Standard syntax (must be last) */
+    border: 1px solid #a72c36;
 }
+
 button#no_thanks:hover {
-  background-color: #f4495a;
+    background-color: #f4495a;
 }
+
 .mail__textarea {
-  width: 100%;
-  padding: 0.5em;
-  background-color: #f5f5f5;
-  border: 1px solid #c6c6c6;
-  border-radius: 4px;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;
-  font-size: 1em;
-  color: #afafaf;
-  margin-bottom: 20px;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #f5f5f5;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #afafaf;
+    margin-bottom: 20px;
 }
+
 .fa {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 @media only screen and (max-width: 800px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  .wrapper {
-    width: 80%;
-  }
-  body {
-    background-position: center top;
-    background-size: cover;
-  }
-button {
-  width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  margin-top: 20px;
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .wrapper {
+        width: 80%;
+    }
+    body {
+        background-position: center top;
+        background-size: cover;
+    }
+    button {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 20px;
+    }
+    .btn {
+        margin-top: 10px;
+    }
+    #checkbox_remember {
+        margin-top: 0px;
+    }
 }
-.btn {
-  margin-top: 10px;
+#errors, #errorsMail, #errorsSign, #errorsRecover, #errorsSubscribe {
+margin-bottom: 12px;
+display: none;
+background: #f4495a;
+color: #fff;
+/* For browsers that do not support gradients */
+background: -webkit-linear-gradient( #f65e70, #f03848);
+/* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#f65e70, #f03848);
+/* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient( #f65e70, #f03848);
+/* For Firefox 3.6 to 15 */
+background: linear-gradient( #f65e70, #f03848);
+/* Standard syntax (must be last) */
+border: 1px solid #a72c36;
+font-weight: bold;
+
 }
-#checkbox_remember {
-  margin-top: 0px;
-}
+#thing {
+    display: none;
 }
