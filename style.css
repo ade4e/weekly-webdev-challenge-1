@@ -321,6 +321,7 @@ button#no_thanks:hover {
     font-size: 1em;
     color: #afafaf;
     margin-bottom: 20px;
+   
 }
 
 .fa {
@@ -372,4 +373,7 @@ font-weight: bold;
 }
 #thing {
     display: none;
+}
+textarea[name=message] {
+    resize: none;
 }
