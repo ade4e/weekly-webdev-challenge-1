@@ -13,13 +13,10 @@ var validatorRegister = new FormValidator('registerForm', [{
 }, {
     name: 'email',
     rules: 'required|valid_email'
-
-
 }, {
     name: 'city',
     display: 'city',
     rules: 'required'
-
 }, {
     name: 'checkbox',
     display: 'Terms of use',
@@ -46,8 +43,6 @@ var validatorMail = new FormValidator('mailForm', [{
     name: 'email',
     display: 'e-mail',
     rules: 'required|valid_email'
-
-
 },
 {
     name: 'message',
