@@ -141,7 +141,7 @@ img {
 .panel__label i {
     color: #dedede;
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 20px;
     width: 10px;
     text-align: center;
