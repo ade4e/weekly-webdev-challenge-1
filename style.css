@@ -327,7 +327,11 @@ button#no_thanks:hover {
 .fa {
     font-size: 1.5em;
 }
-
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 80%;
+    }
+}
 @media only screen and (max-width: 800px) {
     /* For mobile phones: */
     [class*="col-"] {
