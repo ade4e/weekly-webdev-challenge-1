@@ -141,14 +141,14 @@ img {
 .panel__label i {
     color: #dedede;
     position: absolute;
-    top: 20px;
+    top: 12px;
     left: 20px;
     width: 10px;
     text-align: center;
 }
 
 .input-padding {
-    padding-left: 73px;
+    padding-left: 55px;
 }
 
 select {
@@ -334,7 +334,7 @@ button#no_thanks:hover {
         width: 100%;
     }
     .wrapper {
-        width: 80%;
+        width: 95%;
     }
     body {
         background-position: center top;
@@ -376,4 +376,7 @@ font-weight: bold;
 }
 textarea[name=message] {
     resize: none;
+}
+i.fa-envelope {
+   left: 16px;
 }
