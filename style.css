@@ -5,8 +5,10 @@ html {
 body {
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: 100% auto;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
     background-attachment: fixed;
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
