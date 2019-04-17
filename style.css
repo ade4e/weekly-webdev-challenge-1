@@ -9,6 +9,7 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     margin: 0;
+    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
