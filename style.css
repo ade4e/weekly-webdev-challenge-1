@@ -6,10 +6,9 @@ body {
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: 100% auto;
     background-attachment: fixed;
     margin: 0;
-    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
